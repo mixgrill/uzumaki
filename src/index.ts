@@ -1,7 +1,8 @@
-import * as uz from "./uzushio";
+import * as uz from "./uzumaki";
 function hello(name: string): string {
     return `Hello, ${name}!`;
   }
   
 console.log(hello("World"));
-let kernel = new uz.Kernel(null);
+var p = Promise.resolve(null);
+setTimeout(function(){p.then(function(){console.log("yeah")})},1000);
