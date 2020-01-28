@@ -1,4 +1,4 @@
-# uzushio
+# uzumaki
 An Typescript practice project.
 タイプスクリプトの練習プロジェクト
 
